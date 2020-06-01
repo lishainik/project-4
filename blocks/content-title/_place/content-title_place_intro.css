@@ -1,0 +1,28 @@
+.content-title_place_intro {
+max-width: 683px;
+font-weight: 900;
+font-size: 54px;
+line-height: 59px;
+margin-top: 0;
+margin-bottom: 48px;
+}
+
+@media screen and (max-width : 425px)
+{
+    .content-title_place_intro {
+        margin-bottom: 32px;
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (min-width : 425px) and (max-width : 765px)
+{
+    .content-title_place_intro {
+        margin-bottom: 32px;
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 32px;
+    }
+}

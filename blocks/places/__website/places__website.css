@@ -1,0 +1,11 @@
+.places__website {
+    max-width: 484px;
+    align-self: end;
+    margin: 0;
+}
+
+@media screen and (max-width : 765px) {
+    .places__website {
+        display: none;
+    }
+}

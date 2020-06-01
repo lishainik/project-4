@@ -1,0 +1,33 @@
+@import url(../cover/__overlay/cover__overlay.css);
+
+.cover {
+    max-width: 1184px;
+    min-height: 272px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../../images/baikal-train.png);
+    position: relative;
+    background-size: cover;
+}
+
+.cover:hover .cover__overlay{
+    opacity: 0.8;
+}
+
+@media screen and (max-width : 425px) {
+    .cover {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width : 425px) and (max-width : 765px) {
+    .cover {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width : 1280px) and (max-width : 1400px) {
+    .cover {
+        max-height: 600px;
+    }
+}

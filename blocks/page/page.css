@@ -1,0 +1,26 @@
+@import url(../page/__header/page__header.css);
+@import url(../page/__comments/page__comments.css);
+@import url(../page/__cover/page__cover.css);
+@import url(../page/__footer/page__footer.css);
+@import url(../page/__intro/page__intro.css);
+@import url(../page/__lead/page__lead.css);
+@import url(../page/__photo-grid/page__photo-grid.css);
+@import url(../page/__places/page__places.css);
+@import url(../page/__video/page__video.css);
+
+
+
+
+.page {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #2A2C2F;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+}
+
+

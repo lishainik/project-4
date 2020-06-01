@@ -1,0 +1,45 @@
+.content-title_place_cover {
+max-width: 1094px;
+font-weight: 900;
+font-size: 72px;
+line-height: 78px;
+text-align: center;
+z-index: 2;
+margin: 274px auto 0;
+}
+
+@media screen and (max-width : 425px) {
+    .content-title_place_cover {
+        font-size: 32px;
+        line-height: 36px;
+        margin: 104px auto 0;
+    }
+}
+
+@media screen and (min-width : 425px) and (max-width : 765px) {
+    .content-title_place_cover {
+        font-size: 32px;
+        line-height: 36px;
+        margin: 104px auto 0;
+    }
+}
+
+@media screen and (min-width : 768px) and (max-width : 1024px) {
+    .content-title_place_cover {
+        margin: 165px auto 0;
+    }
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1270px) {
+    .content-title_place_cover {
+        margin: 211px auto 0;
+        width:60%
+    }
+}
+
+@media screen and (min-width : 1280px) and (max-width : 1400px) {
+    .content-title_place_cover {
+        margin: 211px auto 0;
+        width:70%
+    }
+}

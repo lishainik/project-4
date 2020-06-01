@@ -1,0 +1,7 @@
+@import url(../content-title/_place/content-title_place.css);
+
+.content-title {
+    font-style: normal;
+    color: #FFFFFF;
+    font-family: Inter, Helvetica, Arial, sans-serif;
+}

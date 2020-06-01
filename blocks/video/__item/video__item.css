@@ -1,0 +1,99 @@
+@import url(../__item/_kamchatka/video__item_kamchatka.css);
+@import url(../__item/_observatory/video__item_observatory.css);
+
+.video__item {
+    position: relative;
+    max-width: 583px;
+    min-height: 200px;
+    min-width: 288px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    border-radius: 5px;
+    
+}
+
+.video__item:first-of-type {
+    margin-right: 18px;
+}
+
+.video__item:hover .video__item-overlay {
+    opacity: 0.8;
+}
+
+@media screen and (max-width : 375px) {
+    .video__item {
+        margin-bottom: 8px;
+        width: 100%;
+        max-width: 288px;
+        align-self: center;
+    }
+
+    .video__item:first-of-type {
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width : 425px) {
+    .video__item {
+        margin-bottom: 8px;
+        width: 100%;
+        max-width: 343px;
+        align-self: center;
+    }
+
+    .video__item:first-of-type {
+        margin-right: 0;
+    }
+}
+
+
+@media screen and (min-width : 425px) and (max-width : 765px) {
+    .video__item {
+        margin-bottom: 8px;
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .video__item:first-of-type {
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width : 768px) and (max-width : 1024px) {
+    .video__item {
+        margin-right: 16px;
+        max-width: 452px;
+        min-width: 352px;
+        max-height: 200px;
+    }
+
+    .video__item:last-of-type {
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1270px) {
+    .video__item {
+        margin-right: 16px;
+        max-width: 452px;
+        min-height: 288px;
+    }
+
+    .video__item:last-of-type {
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width : 1280px) {
+    .video__item {
+        margin-right: 16px;
+        min-width: 583px;
+        min-height: 323px;
+    }
+
+    .video__item:last-of-type {
+        margin-right: 0;
+    }
+}

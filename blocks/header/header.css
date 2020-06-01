@@ -1,0 +1,30 @@
+@import url(../header/__lang/header__lang.css);
+@import url(../header/__languages/header__languages.css);
+@import url(../header/__list-item/header__list-item.css);
+@import url(../header/__logo/header__logo.css);
+
+.header {
+    font-family: Inter, Helvetica, Arial, sans-serif;
+    width: 90%;
+    display: flex;
+    justify-self: center;
+    justify-content: space-between;
+}
+
+@media screen and (min-width : 768px) and (max-width : 1024px) {
+    .header {
+        width: 95%;
+    }
+}
+
+@media screen and (min-width : 1280px) and (max-width : 1400px) {
+    .header {
+        width: 93%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .header {
+        width: 81%;
+    }
+}

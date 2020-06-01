@@ -1,0 +1,34 @@
+@import url(../__lang/_active/header__lang_active.css);
+
+.header__lang {
+    color: #ffffff;
+    width: 30px;
+    height: 23px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: right;
+    margin-top: 17px;
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+
+.header__lang:first-of-type {
+    margin-right: 18px;
+}
+
+.header__lang:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width : 425px) {
+    .header__lang {
+        font-size: 18px;
+        line-height: 16px;
+    }
+
+    .header__lang:first-of-type {
+        margin-right: 16px;
+    }
+}

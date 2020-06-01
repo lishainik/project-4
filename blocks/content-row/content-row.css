@@ -1,0 +1,9 @@
+@import url(../content-row/__text/content-row__text.css);
+
+
+.content-row {
+    max-width: 984px;
+    color: #ffffff;
+    font-family: Inter, Helvetica, Arial,  sans-serif;
+    display: flex;
+}
